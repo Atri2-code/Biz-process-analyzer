@@ -1,0 +1,15 @@
+{
+  "name": "biz-process-analyzer",
+  "version": "1.0.0",
+  "description": "Identify business process bottlenecks and generate prioritised improvement reports",
+  "main": "src/analyze.js",
+  "scripts": {
+    "start": "node src/analyze.js",
+    "test": "node src/analyze.js --input data/samples/onboarding.json --output reports/"
+  },
+  "keywords": ["consulting", "process-optimization", "business-analysis", "bottleneck"],
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}

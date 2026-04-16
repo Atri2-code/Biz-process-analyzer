@@ -1,0 +1,13 @@
+{
+  "process": "Client Onboarding",
+  "steps": [
+    { "id": "S01", "name": "Initial intake form",    "owner": "Sales",      "avg_duration_mins": 45,  "error_rate_pct": 12, "handoffs": 2, "automation_pct": 20 },
+    { "id": "S02", "name": "KYC compliance check",   "owner": "Compliance", "avg_duration_mins": 180, "error_rate_pct": 28, "handoffs": 4, "automation_pct": 10 },
+    { "id": "S03", "name": "Contract drafting",      "owner": "Legal",      "avg_duration_mins": 240, "error_rate_pct": 18, "handoffs": 3, "automation_pct": 5  },
+    { "id": "S04", "name": "Internal sign-off",      "owner": "Finance",    "avg_duration_mins": 120, "error_rate_pct": 5,  "handoffs": 5, "automation_pct": 0  },
+    { "id": "S05", "name": "Client contract review", "owner": "Client",     "avg_duration_mins": 360, "error_rate_pct": 8,  "handoffs": 2, "automation_pct": 0  },
+    { "id": "S06", "name": "System provisioning",    "owner": "IT",         "avg_duration_mins": 90,  "error_rate_pct": 22, "handoffs": 3, "automation_pct": 35 },
+    { "id": "S07", "name": "Data migration",         "owner": "IT",         "avg_duration_mins": 150, "error_rate_pct": 30, "handoffs": 2, "automation_pct": 40 },
+    { "id": "S08", "name": "Kickoff and handover",   "owner": "Delivery",   "avg_duration_mins": 60,  "error_rate_pct": 3,  "handoffs": 1, "automation_pct": 10 }
+  ]
+}
