@@ -1,4 +1,4 @@
-# biz-process-analyzer
+# Biz-process-analyzer
 
 > Diagnose business process inefficiencies and surface prioritised improvement actions — from a single CSV or JSON input.
 
